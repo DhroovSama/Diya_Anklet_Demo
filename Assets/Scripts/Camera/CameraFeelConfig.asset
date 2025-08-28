@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f647e7a9a1ab6d2449022e68385baead, type: 3}
+  m_Name: CameraFeelConfig
+  m_EditorClassIdentifier: 
+  mouseSensitivityX: 0.12
+  mouseSensitivityY: 0.12
+  mouseSmoothingTime: 0
+  stickSensitivityX: 220
+  stickSensitivityY: 220
+  stickSmoothingTime: 0.08
+  stickDeadzone: 0.15
+  minPitch: -88
+  maxPitch: 88
+  lookSwayMaxRoll: 0.5
+  lookSwayResponsiveness: 8
+  idleBreathAmplitude: 0.004
+  idleBreathHz: 0.28
+  headBobAmplitudeMax: 0.02
+  baseFOV: 65
+  externalFOVMax: 3
+  externalFOVEase: 0.25
+  invertY: 0
+  cursorLockOnStart: 1
