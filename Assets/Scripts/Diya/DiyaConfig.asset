@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f7bc7c65f345e48bbe3af999ba0dc4, type: 3}
+  m_Name: DiyaConfig
+  m_EditorClassIdentifier: 
+  litIntensity: 1
+  coveredIntensity: 0.1
+  extinguishedIntensity: 0
+  coverLerpTime: 0.5
+  snuffTimeTarget: 5
+  coolTime: 4
+  flickerAmplitude: 0.157
+  flickerHz: 14.2
+  useAdvancedFlicker: 1
+  flickerStrength: 1
+  baseFlickerHz: 2.5
+  midFlickerHz: 9
+  highFlickerHz: 25
+  lowWeight: 0.6
+  midWeight: 0.3
+  highWeight: 0.1
+  skew: -0.3
+  enableSpikes: 1
+  spikeChancePerSecond: 0.6
+  spikeMagnitude: 0.25
+  spikeMinDuration: 0.03
+  spikeMaxDuration: 0.1
+  autoCreateLight: 1
+  lightType: 2
+  lightColor: {r: 1, g: 0.86, b: 0.55, a: 1}
+  lightRange: 4.8
+  lightIntensityScale: 4
+  shadowType: 2
+  shadowStrength: 0.8
+  rangeJitter: 0.05
+  colorJitter: 0.02
+  targetLight: {fileID: 0}
+  emissiveRenderer: {fileID: 0}
+  emissiveColor: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 1.5
+  drawRangeGizmo: 1
+  rangeGizmoColor: {r: 1, g: 0.75, b: 0.3, a: 0.25}

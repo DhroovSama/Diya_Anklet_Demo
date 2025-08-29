@@ -20,10 +20,10 @@ public class CameraFeelConfig : ScriptableObject
 
     [Header("Additives")]
     [Range(0f, 2f)] public float lookSwayMaxRoll = 0.5f;       // degrees
-    [Range(1f, 20f)] public float lookSwayResponsiveness = 8f; // larger = snappier
+    [Range(1f, 30f)] public float lookSwayResponsiveness = 8f;  // larger = snappier
     [Range(0f, 0.02f)] public float idleBreathAmplitude = 0.004f; // meters
     [Range(0.05f, 0.8f)] public float idleBreathHz = 0.28f;
-    [Range(0f, 0.03f)] public float headBobAmplitudeMax = 0.02f;
+    [Range(0f, 0.03f)] public float headBobAmplitudeMax = 0.010f; // calmer default
 
     [Header("FOV")]
     [Range(40f, 100f)] public float baseFOV = 65f;
